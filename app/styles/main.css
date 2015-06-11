@@ -1,0 +1,42 @@
+body {
+  background-color: #e5e5e5;
+}
+
+h1, h2, h3, h4, p, a {
+  color:#777;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 28px;
+
+}
+
+p {
+  font-size: 16px;
+}
+
+a:hover {
+  color:#777;
+}
+
+.s-margin {
+  margin-top: 60px;
+}
+
+.intro-row {
+  margin-top: 90px;
+}
+
+.project-row {
+  margin-top:180px;
+  margin-bottom: 180px;
+}
+
+.project-row .project-description{
+  margin-top: 60px;
+}
+
+.project-image {
+  max-width:100%;
+}
