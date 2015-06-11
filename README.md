@@ -19,10 +19,16 @@ $ npm install -g grunt-cli
 ```sh
 $ git clone https://github.com/davidseik/lzalles.git
 ``` 
-- Go to directory and install packages
+- Go to directory
 ```sh
-$ cd lzalles | sudo npm install
+$ cd lzalles
 ``` 
+
+- Install packages
+```sh
+$ sudo npm install
+```
+
 - Install bower components
 ```sh
 $ bower install
