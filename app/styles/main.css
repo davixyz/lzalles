@@ -1,23 +1,44 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #f7f7f7;
+  font-family: "freight-sans-pro",sans-serif;
 }
 
 h1, h2, h3, h4, p, a {
-  color:#777;
+  color:rgba(0, 0, 0 ,.5);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 40px;
+  line-height: 50px;
 
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 100;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+a {
+  color: rgba(0, 0, 0, .65);
+  text-decoration: none;
+  -webkit-transition: color 0.25s linear;
 }
 
 a:hover {
-  color:#777;
+  color: rgba(0, 0, 0, .85);
+  text-decoration: none;
+  -webkit-transition: color 0.25s linear;
 }
 
 .s-margin {
@@ -25,7 +46,7 @@ a:hover {
 }
 
 .intro-row {
-  margin-top: 90px;
+  margin-top: 180px;
 }
 
 .project-row {
